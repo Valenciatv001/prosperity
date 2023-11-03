@@ -1,3 +1,4 @@
+
 .space{
     
     background-color: 
@@ -60,17 +61,14 @@ margin-left: 5%;
 font-size: 1.3rem;
 }
 .build{
-width: 100%;
-
 background-color: rgb(255, 20, 141);
 color: white;
+margin: 2px;
 }
 
 .build h1{
-
 text-align: center;
-margin-left: 5%;
-padding-top: 5%;
+padding: 40px  50px;
 font-size: 3rem;
 word-spacing: 2px;
 }
@@ -81,7 +79,78 @@ font-size: 1.5rem;
 word-spacing: 2px;
 }
 .first{
-max-width: 100%;
+/* max-width: 100%; */
+margin: 6rem;
 justify-content: space-between;
 display: flex;
+align-items: center;
 }
+
+.first-1{
+    background-color: rgb(179, 145, 145);
+    margin: 10px;
+    border-radius: 15%;
+}
+
+.first-2 {
+   background-color: rgb(179, 145, 145);
+    margin: 10px;
+    border-radius: 15%;
+}
+
+.first-3 {
+   background-color: rgb(179, 145, 145);
+    margin: 10px;
+    border-radius: 15%;
+}
+
+.offer-conatiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+}
+
+ .offer-detail {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 40px 40px;
+  }
+  
+  .offer-details-screen h3{
+    gap: 4;
+    position: relative;
+  }
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
