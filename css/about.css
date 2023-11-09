@@ -9,3 +9,20 @@
   font-size: 20px;
   margin-bottom: 50px;
 }
+
+
+
+.footer {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+.footer-container div {
+  margin-bottom: 20px;
+  font-size: 15px;
+}

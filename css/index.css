@@ -40,13 +40,13 @@ body {
 
   
   .navbar-right li {
-    margin-left: 20px;
+    margin-left: 40px;
   }
 
   .navbar-right li:hover {
     background-color: blue;
     height: 20px;
-    width: 100px;
+    width: 50px;
   }
 
   
@@ -137,29 +137,24 @@ body {
     
     background-image: url('../img/card1.jpg');
     background-size: cover;
-    /* background-position: center; */
   }
   
   .card3 {
     background-image: url('../img/card2.jpg');
     background-size: cover;
-    /* background-color: red; */
   }
   
   .card4 {
     background-image: url('../img/card3.png');
     background-size: cover;
-    /* background-color: green; */
   }
-  
+
 
   .text-form {
     color: white;
   }
 
   /* FORM STYLW */
-
-
   .container {
    
     padding: 60px 70px;
@@ -293,9 +288,22 @@ body {
 
 }
 
+.element {
+  margin-bottom: 20px;
+}
+
 
 .div1 {
-  border-radius: 2px solid red;
+  margin: 3px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: aqua;
+}
+
+.div1:hover {
+ background-color: black;
+ color: #fff;
 }
 
 
